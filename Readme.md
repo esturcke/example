@@ -1,16 +1,13 @@
-# React Styleguidist example style guide
+# React Styleguidist Does Not Reload on Asset Change
 
-See [deployed version](https://react-styleguidist.js.org/examples/basic/).
+## Steps to Reproduce
 
-![](http://wow.sapegin.me/3q0F1Y1P321k/Image%202016-04-12%20at%207.25.03%20PM.png)
+1. `git clone git@github.com:esturcke/styleguidist-no-reload-on-asset-change-bug.git`
+2. `cd git@github.com:esturcke/styleguidist-no-reload-on-asset-change-bug.git`
+3. `yarn`
+4. `yarn start`
+5. Navigate to [http://localhost:6060/](http://localhost:6060/).
+6. `cp public/{update,image}.png`
 
-How to start locally:
+The page does not reflect the new image until the page is manually reloaded.
 
-```
-git clone https://github.com/styleguidist/example.git react-styleguidist-example
-cd react-styleguidist-example
-npm install
-npm start
-```
-
-Then open [http://localhost:6060](http://localhost:6060) in your browser.
