@@ -1,5 +1,7 @@
 Basic button:
 
+![Image](image.png)
+
 ```jsx
 <Button>Push Me</Button>
 ```

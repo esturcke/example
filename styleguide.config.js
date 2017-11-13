@@ -2,6 +2,7 @@ module.exports = {
 	title: 'React Style Guide Example',
 	defaultExample: true,
 	components: './lib/components/**/[A-Z]*.js',
+  assetsDir: 'public',
 	webpackConfig: {
 		module: {
 			loaders: [
